@@ -5,7 +5,6 @@ ENV JIRA_HOME     /var/www/public/jira
 ENV JIRA_INSTALL  /var/www/public/atlassian
 ENV JIRA_VERSION  7.0.0
 
-
 # Install Atlassian JIRA and helper tools and setup initial home
 # directory structure.
 RUN set -x \
