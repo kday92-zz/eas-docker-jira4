@@ -48,4 +48,4 @@ VOLUME ["/var/www/public/sites/jira"]
 WORKDIR ${JIRA_HOME}
 
 # Run Atlassian JIRA as a foreground process by default.
-CMD ["/var/www/public/sites/atlassian/bin/start-jira.sh", "-fg"]
+#CMD ["/var/www/public/sites/atlassian/bin/start-jira.sh", "-fg"]
