@@ -2,7 +2,7 @@ FROM java:8
 
 # Configuration variables.
 ENV JIRA_HOME     /var/www/public/sites/jira
-ENV JIRA_INSTALL  /var/www/public/sites/atlassian
+ENV JIRA_INSTALL  /var/www/public/sites/jira
 ENV JIRA_VERSION  7.0.0
 
 # Install Atlassian JIRA and helper tools and setup initial home
@@ -48,4 +48,4 @@ VOLUME ["/var/www/public/sites/jira"]
 WORKDIR ${JIRA_HOME}
 
 # Run Atlassian JIRA as a foreground process by default.
-#CMD ["/var/www/public/sites/atlassian/bin/start-jira.sh", "-fg"]
+#CMD ["/var/www/public/sites/jira/bin/start-jira.sh", "-fg"]
